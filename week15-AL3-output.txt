@@ -1,0 +1,8 @@
+The numberof distinct bowler is : 6
+.........Scorecard.........
+Bracewell 13.666667 328 328
+Boult 19.000000 0 0
+Martin 23.000000 0 0
+Franklin 13.500000 0 0
+Williamson 7.000000 0 0
+Patel 24.000000 0 0

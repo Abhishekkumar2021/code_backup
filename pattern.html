@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern</title>
+    <style>
+        .box{
+              margin-left:450px;
+           margin-top:90px ;
+            position:absolute;
+            height: 800px;
+            width: 1000px;
+            border-radius: 100px;
+             box-shadow: 0 0 10px rgb(124, 119, 119);
+            background-color:rgb(23, 78, 78);
+          
+        }
+        .inner{
+           margin-left:250px;
+           margin-top:200px ;
+            height: 400px;
+            width: 500px;
+            border-radius: 100px;
+            box-shadow: 0 0 10px black;
+            background-color:rgb(43, 150, 150);
+        
+        }
+        .box:hover{
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+    <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+    <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+    <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+    <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+     <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+     <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+     <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+     <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+     <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+     <div class="box">
+       <div class="inner">
+
+       </div>
+       
+    </div>
+    <script>
+        let box = document.querySelectorAll(".box");
+        console.log(box);
+        for(let i=0; i<box.length; i++) {
+            box[i].style.background = `#4${i+2}4${i}4${i+2}4${i+2}`;
+            box[i].style.transform = `rotate(-${5*(i+1.6)*Math.PI}deg)`;
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+The number of distinct Batsman is : 7
+The numberof distinct bowler is : 6
+.........Scorecard.........
+Dhoni, * Bracewell 348 87
+Pujara, * Bracewell 0 255
+Raina, * Patel 0 13
+Kohli, * Martin 0 107
+Tendulkar, * Boult 62 62
+Sehwag, * Bracewell 0 41
+Gambhir, * Boult 36 36

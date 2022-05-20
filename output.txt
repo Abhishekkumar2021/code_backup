@@ -1,0 +1,4 @@
+The best fitting lne is y = 0.00165565x + 0.27511
+Predicted value at 2060 = 3.68575
+The errorSquared  = 3.63727
+Error in 2050 = -0.140807
